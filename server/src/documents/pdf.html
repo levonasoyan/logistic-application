@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Document</title>
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+     
+      .wrapper {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        position: relative;
+      }
+
+      .header {
+        width: 100%;
+        height: 150px;
+        background: rgb(78, 138, 156);
+        background: linear-gradient(
+          90deg,
+          rgba(78, 138, 156, 1) 0%,
+          rgba(55, 156, 141, 1) 50%,
+          rgba(44, 166, 135, 1) 100%
+        );
+      }
+
+      #pentagon {
+        width: 230px;
+        height: 260px;
+        margin-left: 100px;
+      }
+      #pentagon img {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+      }
+
+      .footer {
+        width: 100%;
+        height: 70px;
+        position: absolute;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        bottom: 0;
+        left: 0;
+        background: rgb(78, 138, 156);
+        background: linear-gradient(
+          90deg,
+          rgba(78, 138, 156, 1) 0%,
+          rgba(55, 156, 141, 1) 50%,
+          rgba(44, 166, 135, 1) 100%
+        );
+      }
+
+      .container{
+        max-width: 1170px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 10px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      }
+
+      .flex{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+      }
+      h1{
+        text-align: center;
+        margin-bottom: 25px;
+      }
+      p{
+        margin: 10px 0px;
+      }
+
+      .main{
+        margin-top:20px;
+      }
+      .signature {
+        width: 100%;
+        height: 30px;
+        display:flex;
+        align-items: flex-end;
+      }
+      .signaturespan{
+        width: 330px;
+        height: 2px;
+        background-color: black;
+        margin-left: 100px;
+      }
+
+      .site{
+        color: white;
+        margin-right: 30px;
+      }
+
+       table {
+       font-family: arial, sans-serif;
+        border-collapse: collapse;
+       width: 100%;
+         }
+
+      td, th {
+        border: 1px solid #dddddd;
+       text-align: left;
+        padding: 8px;
+      }
+
+       tr:nth-child(even) {
+        background-color: #dddddd;
+         } 
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div id="pentagon">
+        </div>
+      </header>
+      <main class="main">
+       <div class="container">
+         <div class="flex">
+          <h1 class="h1">Transport order</h1>
+          
+           
+         </div>
+         <h2 class="h2">Load Information</h2>
+         <table>
+          <tr>
+            <th>Company</th>
+            <th>Contact</th>
+            <th>Country</th>
+          </tr>
+          <tr>
+            <td></td>
+          </tr>
+          </table>
+       </div>
+           
+        </div>
+      </main>
+      <div class="footer">
+            <p class="site">www.mauriceward.com</p>
+      </div>
+    
+    </div>
+  </body>
+</html>
