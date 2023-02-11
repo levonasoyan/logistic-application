@@ -7,6 +7,8 @@
 
 ## Make sure .env is configuted properly
 
-## Good luck
+- [ ] [.env.template is there for you ]()
+
+
 
 
