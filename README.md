@@ -5,10 +5,8 @@
 - [ ] [npm i ]()
 - [ ] [npm start ]()
 
+## Make sure .env is configuted properly
 
-## Add your files
+## Good luck
 
-cd existing_repo
-git branch -M main
-git push -uf origin main
-```
+
